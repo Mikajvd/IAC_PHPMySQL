@@ -1,0 +1,7 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Install PHP MySQL module
+  apt:
+    name: php-mysql
+    state: present
+# tasks file for roles/php-mysql
