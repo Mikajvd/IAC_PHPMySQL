@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: apache  # ← gebruik de echte rolnaam hier
+  role_name: IAC_PHP_MySQL
   author: mikajvd
   description: This role installs and configures Apache and MySQL on a Debian-based system.
   company: MD365IT
@@ -11,7 +11,6 @@ galaxy_info:
         - focal
         - jammy
   galaxy_tags:
-    - apache
     - webserver
     - mysql
     - debian
